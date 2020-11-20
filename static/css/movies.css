@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(12, 12, 12);
+}
+ul
+{
+    list-style-type: none;
+}
+ .movie-card  a
+ {
+      color: blanchedalmond;
+      font-size: 20px;
+ }
+ 
+h3{
+    
+    color: blanchedalmond;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.movie-card img{
+    width: 300px;
+    height: 290px;
+    padding-bottom: 3%;
+    
+}
+.movie-card{
+    margin-right: 3%;
+    margin-left: 0%;
+}
+.search-form{
+    width: 50% !important; 
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    width: 15% !important;
+    margin-top: 30px !important;
+}

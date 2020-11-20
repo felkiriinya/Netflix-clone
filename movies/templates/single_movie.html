@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{%block content%}
+<div class="container">
+    
+    <div class="row">
+        {% for video in videos %}
+        <iframe src="https://www.youtube.com/embed/{{video.key}}" frameborder="0" width="420" width="315"></iframe>
+        {%endfor%}
+
+    </div>
+</div>
+{%endblock%}
